@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tber Scales</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Tber scales</h1>
+  <div class="selectors">
+    <select id="key-select">
+      <option value="C">C</option>
+      <option value="C#">C#</option>
+      <option value="D">D</option>
+      <option value="D#">D#</option>
+      <option value="E">E</option>
+      <option value="F">F</option>
+      <option value="F#">F#</option>
+      <option value="G">G</option>
+      <option value="G#">G#</option>
+      <option value="A">A</option>
+      <option value="A#">A#</option>
+      <option value="B">B</option>
+    </select>
+
+    <select id="genre-select">
+      <option value="major">メジャー</option>
+      <option value="minor">マイナー</option>
+      <option value="mode">モード</option>
+    </select>
+
+    <select id="scale-select">
+      <option value="major">メジャー</option>
+      <option value="pentatonic">ペンタ</option>
+      <option value="blues">ブルース</option>
+    </select>
+  </div>
+
+  <div id="fretboard">
+    <img id="fretboard-img" src="assets/c_major_fretboard.png" alt="指板" />
+  </div>
+
+  <div id="notes">
+    構成音: C D E F G A B
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
